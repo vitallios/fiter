@@ -60,7 +60,7 @@ HTMLElement.prototype.InitSlider = function (options = null) {
 };
 
 document.getElementById("Slider").InitSlider({
-  timerInterval: 16000,
+  timerInterval: 6000,
   timerEnable: true,
   filter: "grayscale(1)",
   slider: "gotoBack"
