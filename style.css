@@ -262,7 +262,7 @@ body .main__wrap {
   flex-direction: row;
   flex-wrap: wrap;
   align-content: space-between;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 @media (max-width: 890px) {
@@ -355,7 +355,7 @@ body .slider {
   margin-bottom: -3em;
   width: 100%;
   width: 90%;
-  margin: 3em auto;
+  margin: 5% auto;
 }
 @media (max-width: 550px) {
   body .slider {
@@ -375,8 +375,8 @@ body .trenning {
 }
 @media (max-width: 550px) {
   body .trenning {
-    clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%);
-    padding-top: 6em;
+    clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 100%);
+    padding-top: 3%;
   }
 }
 body .trenning__p {
