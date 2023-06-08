@@ -698,7 +698,7 @@ body .contact__tel_i {
 body .footer {
   min-height: 10em;
   position: relative;
-  margin-top: -10em;
+  margin-top: -11em;
   background: #060606db;
 }
 @media (max-width: 900px) {
